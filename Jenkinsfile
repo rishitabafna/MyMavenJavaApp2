@@ -5,7 +5,7 @@ pipeline{
 	stages{
 		stage('a'){
 			steps{
-				git branch:'master' url:'https://github.com/rishitabafna/MyMavenJavaApp2.git'
+				git branch:'master', url:'https://github.com/rishitabafna/MyMavenJavaApp2.git'
 			}
 		}
 		stage('b'){
